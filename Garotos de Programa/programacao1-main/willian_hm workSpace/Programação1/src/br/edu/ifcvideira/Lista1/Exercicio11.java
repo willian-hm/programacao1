@@ -18,7 +18,7 @@ public class Exercicio11 {
 		double atraso;
 		double valor;
 		
-		System.out.println("Digite o valor da prestação em atraso: ");
+		System.out.println("Digite o valor da prestação: ");
 		prestacao = Double.parseDouble(in.nextLine());
 		
 		System.out.println("Digite a taxa de percentual de juros por dia: ");
@@ -27,9 +27,9 @@ public class Exercicio11 {
 		System.out.println("Digite o número de dias de atraso: ");
 		atraso = Double.parseDouble(in.nextLine());
 		
-		valor = *;
+		valor = prestacao + (prestacao*(taxa/100)*atraso);
 		
-		System.out.println("A área do Cubo é " + resultado);
+		System.out.println("A prestação em atraso é de R$" + valor);
 		
 		in.close();
 		

@@ -12,10 +12,10 @@ public class Exercicio7 {
 		double altura;
 		double resultado;
 		
-		System.out.println("Digite a altura do cubo");
+		System.out.println("Digite o raio do cone");
 		raio = Double.parseDouble(in.nextLine());
 		
-		System.out.println("Digite a lateral do cubo");
+		System.out.println("Digite a altura do cone");
 		altura = Double.parseDouble(in.nextLine());
 		
 		resultado = (Math.PI*Math.pow(raio, 2)*altura) / 3;

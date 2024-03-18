@@ -22,7 +22,7 @@ public class Exercicio2 {
 		System.out.println("Digite a base do cubo");
 		base = Double.parseDouble(in.nextLine());
 		
-		resultado = ((altura*lateral)+(altura*base)+(lateral*base))*2;
+		resultado = (altura*lateral)+(altura*base)+(lateral*base)*2;
 		
 		System.out.println("A área do Cubo é " + resultado);
 		

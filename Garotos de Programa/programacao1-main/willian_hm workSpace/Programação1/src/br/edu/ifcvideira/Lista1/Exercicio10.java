@@ -24,12 +24,12 @@ public class Exercicio10 {
 		System.out.println("Qual o valor da hora por aula?");
 		valorh = Double.parseDouble(in.nextLine());
 		
-		System.out.println("Qual o percentual do INSS atual?");
+		System.out.println("Qual o percentual do INSS atual? OBS: não colocar '%' acompanhado do número");
 		percINSS = Double.parseDouble(in.nextLine());
 		
 		salbruto = horas * valorh;
 		
-		salliqui = salbruto - (salbruto * percINSS);
+		salliqui = salbruto - (salbruto * (percINSS/100));
 		
 		System.out.println("Seu salário bruto é: R$" + salbruto);
 		System.out.println("Seu salário líquido é: R$" + salliqui);

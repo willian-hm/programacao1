@@ -14,7 +14,7 @@ public class Exercicio6 {
 		System.out.println("Digite o raio: ");
 		raio = Double.parseDouble(in.nextLine());
 		
-		volume = ((4*Math.PI*Math.pow(raio, 3))/3);
+		volume = (4*Math.PI*Math.pow(raio, 3))/3;
 		System.out.println("O volume da esfera é: " + volume);
 		
 		in.close();
