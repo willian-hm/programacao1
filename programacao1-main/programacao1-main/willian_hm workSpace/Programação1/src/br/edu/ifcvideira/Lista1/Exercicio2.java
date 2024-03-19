@@ -13,16 +13,16 @@ public class Exercicio2 {
 		double base; 
 		double resultado;
 		
-		System.out.println("Digite a altura do cubo");
+		System.out.println("Digite a altura do cubo: ");
 		altura = Double.parseDouble(in.nextLine());
 		
-		System.out.println("Digite a lateral do cubo");
+		System.out.println("Digite a lateral do cubo: ");
 		lateral = Double.parseDouble(in.nextLine());
 		
-		System.out.println("Digite a base do cubo");
+		System.out.println("Digite a base do cubo: ");
 		base = Double.parseDouble(in.nextLine());
 		
-		resultado = (altura*lateral)+(altura*base)+(lateral*base)*2;
+		resultado = ((altura*lateral)+(altura*base)+(lateral*base))*2;
 		
 		System.out.println("A área do Cubo é " + resultado);
 		

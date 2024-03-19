@@ -23,7 +23,7 @@ public class Exercicio15 {
         System.out.println("Qual foi a distância percorrida: ");
         distancia = Double.parseDouble(in.nextLine());
 
-        System.out.println("Quanto tempo durou a viagem: ");
+        System.out.println("Qual a duração da viagem (em horas): ");
         tempo = Double.parseDouble(in.nextLine());
 
         velocidade = distancia/tempo;

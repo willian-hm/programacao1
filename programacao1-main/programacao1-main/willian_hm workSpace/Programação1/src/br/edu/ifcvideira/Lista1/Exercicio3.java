@@ -11,7 +11,7 @@ public class Exercicio3 {
 		double raio;
 		double area;
 		
-		System.out.println("Digite o raio da esfera:");
+		System.out.println("Digite o raio da esfera: ");
 		raio = Double.parseDouble(in.nextLine());
 		
 		area = 4 * Math.PI * Math.pow(raio, 2);

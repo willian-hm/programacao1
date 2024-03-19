@@ -13,7 +13,7 @@ public class Exercicio10 {
 		Scanner in = new Scanner(System.in);
 		
 		double horas;
-		double valorh;
+		double valorhora;
 		double percINSS;
 		double salbruto;
 		double salliqui;
@@ -22,12 +22,12 @@ public class Exercicio10 {
 		horas = Double.parseDouble(in.nextLine());
 		
 		System.out.println("Qual o valor da hora por aula?");
-		valorh = Double.parseDouble(in.nextLine());
+		valorhora = Double.parseDouble(in.nextLine());
 		
 		System.out.println("Qual o percentual do INSS atual? OBS: não colocar '%' acompanhado do número");
 		percINSS = Double.parseDouble(in.nextLine());
 		
-		salbruto = horas * valorh;
+		salbruto = horas * valorhora;
 		
 		salliqui = salbruto - (salbruto * (percINSS/100));
 		

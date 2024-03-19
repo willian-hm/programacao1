@@ -12,7 +12,7 @@ public class Exercicio8 {
 		double c;
 		double f;
 		
-		System.out.println("Digite a temperatura em fahrenheit");
+		System.out.println("Digite a temperatura em fahrenheit:");
 		f = Double.parseDouble(in.nextLine());
 		
 		c = (f-32)/1.8;

@@ -12,10 +12,10 @@ public class Exercicio4 {
 		double altura;
 		double area;
 		
-		System.out.println("Digite o raio:");
+		System.out.println("Digite o raio: ");
 		raio = Double.parseDouble(in.nextLine());
 		
-		System.out.println("Digite a altura:");
+		System.out.println("Digite a altura: ");
 		altura = Double.parseDouble(in.nextLine());
 		
 		area = Math.PI * raio * altura;
